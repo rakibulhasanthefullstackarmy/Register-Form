@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafb;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+.left_form{
+    
+width: 35%;
+}
+.signup_form{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-around;
+
+align-items: center;
+
+padding: 84px 0;
+}
+.heading{
+
+}
+.heading h3{
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+font-size: 25px;
+
+margin-bottom: 10px;
+}
+.heading p{
+
+margin-bottom: 21px;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+margin-bottom: 24px;
+
+color: #b3b3b3;
+
+font-size: 14px;
+}
+.contact_form{
+
+}
+.contact_form input{
+
+width: 100%;
+
+border: none;
+
+border-bottom: 1px solid #dedede;
+
+margin-bottom: 26px;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+padding: 6px 5px 10px 5px;
+
+color: #b3b3b3;
+
+font-size: 14px;
+}
+.agreementToTerms{display: flex;justify-content: space-between;align-items: center;margin: 0px 0px 24px 0px;}
+.agreementToTerms input[type="checkbox"]{width: auto;margin: 0;}
+input[type=checkbox] {
+    accent-color: #38d39f;
+  }
+.agreementToTerms p{
+
+margin-left: 15px;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+font-size: 14px;
+
+color: #b3b3b3;
+
+line-height: 1.5;
+}
+.agreementToTerms a{
+
+text-decoration: none;
+
+color: #b3b3b3;
+
+text-decoration: underline;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #b3b3b3
+}
+.contact_form input[type="submit"]{
+
+margin-bottom: 0;
+
+border: 0;
+
+background-color: #38d39f;
+
+color: #fff;
+
+padding: 15px 0px;
+
+font-size: 14px;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+transition: 0.4s all ease-in-out;
+}
+.contact_form input[type="submit"]:hover{
+    background-color: #299974;
+    cursor: pointer;
+    width: 100%;
+}
+.right_image{
+
+width: 45%;
+}
+.right_image img{
+
+width: 100%;
+}
